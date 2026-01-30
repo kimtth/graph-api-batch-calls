@@ -1,0 +1,11 @@
+[project]
+name = "batch-calls-find-meeting-sched"
+version = "0.1.0"
+description = "POC for handling heavy and high-density schedule data with Microsoft Graph findmeetingtimes API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-identity>=1.14.0",
+    "msgraph-sdk>=1.0.0",
+    "python-dotenv>=1.0.1",
+]

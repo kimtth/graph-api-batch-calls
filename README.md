@@ -14,7 +14,7 @@ This demo script uses application-only access for creating events and cleaning u
 
 ### 1. Register Azure AD Application
 
-1. Go to [Azure Portal](https://portal.azure.com) → Azure Active Directory → App registrations
+1. Go to [Azure Portal](https://portal.azure.com) → Entra ID (Azure Active Directory) → App registrations
 2. New registration:
    - Name: `FindMeetingTimes POC`
    - Supported account types: Single tenant or Multitenant
@@ -30,6 +30,7 @@ This demo script uses application-only access for creating events and cleaning u
 3. **User consent via browser**: With interactive browser auth, users can consent to these permissions themselves during sign-in.
 4. API permissions → Add permission → Microsoft Graph → Application
 5. Add permissions and consent by administrator.
+6. Manage > Authentication > Settings > Allow public client flows > Enabled
 
 ### 3. Update Code with Credentials
 
